@@ -16,7 +16,7 @@ This profile adapts the Zulfqar toolkit for the Optional Aging health-optimizati
 ## Preview
 
 ```bash
-./scripts/install-optional-aging.sh \
+bash scripts/install-optional-aging.sh \
   --project-dir=/path/to/optional-aging-platform \
   --dry-run
 ```
@@ -24,7 +24,7 @@ This profile adapts the Zulfqar toolkit for the Optional Aging health-optimizati
 ## Install
 
 ```bash
-./scripts/install-optional-aging.sh \
+bash scripts/install-optional-aging.sh \
   --project-dir=/path/to/optional-aging-platform
 ```
 
