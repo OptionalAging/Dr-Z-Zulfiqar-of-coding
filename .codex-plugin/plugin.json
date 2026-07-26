@@ -1,23 +1,23 @@
 {
-  "name": "zulfqar-of-coding",
-  "version": "0.2.0",
-  "description": "Portable, safety-gated coding-agent workflows for Codex, Claude Code, and AGENTS.md-compatible tools.",
+  "name": "optional-aging-agent-toolkit",
+  "version": "0.3.0",
+  "description": "Optional Aging's safety-gated coding-agent workflows, including health-data, PHI, authorization, AI, and clinical-scope guardrails.",
   "author": {
-    "name": "Zulfqar of Coding contributors",
-    "url": "https://github.com/Mohamed-Alaboudi/zulfqar-of-coding"
+    "name": "Optional Aging",
+    "url": "https://github.com/OptionalAging"
   },
-  "repository": "https://github.com/Mohamed-Alaboudi/zulfqar-of-coding",
+  "repository": "https://github.com/OptionalAging/Dr-Z-Zulfiqar-of-coding",
   "license": "MIT",
-  "keywords": ["coding-agents", "codex", "claude-code", "skills"],
+  "keywords": ["coding-agents", "codex", "claude-code", "skills", "health-data", "privacy"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Zulfqar of Coding",
-    "shortDescription": "Safety-gated workflows for coding agents",
-    "longDescription": "Portable instructions, skills, verification gates, and research workflows for Codex, Claude Code, and AGENTS.md-compatible coding agents.",
-    "developerName": "Zulfqar of Coding contributors",
+    "displayName": "Optional Aging Agent Toolkit",
+    "shortDescription": "Health-data-aware workflows for coding agents",
+    "longDescription": "Portable coding-agent instructions, verification gates, health-data safety reviews, security templates, and research workflows maintained for Optional Aging.",
+    "developerName": "Optional Aging",
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Write"],
-    "websiteURL": "https://github.com/Mohamed-Alaboudi/zulfqar-of-coding",
-    "defaultPrompt": ["Apply the relevant Zulfqar workflow to this task."]
+    "websiteURL": "https://github.com/OptionalAging/Dr-Z-Zulfiqar-of-coding",
+    "defaultPrompt": ["Apply the relevant Optional Aging workflow and health-data guardrails to this task."]
   }
 }
