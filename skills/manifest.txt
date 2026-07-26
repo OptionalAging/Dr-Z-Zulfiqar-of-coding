@@ -7,6 +7,7 @@ doubt-driven-development
 exa
 grill-with-docs
 handoff
+health-data-safety
 honest-feedback
 long-horizon-prompting
 prompt-creator
