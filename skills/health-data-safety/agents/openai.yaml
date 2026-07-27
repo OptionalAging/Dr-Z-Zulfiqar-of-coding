@@ -1,0 +1,3 @@
+interface:
+  display_name: "Health Data Safety"
+  short_description: "Review PHI, privacy, authorization, AI, and clinical-scope risks"

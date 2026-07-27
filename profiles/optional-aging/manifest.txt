@@ -1,0 +1,7 @@
+# Skills deployed by the Optional Aging project profile.
+health-data-safety
+verification-before-completion
+systematic-debugging
+common-ground
+re-entry
+handoff

@@ -1,13 +1,13 @@
 {
-  "name": "zulfqar-of-coding",
-  "version": "0.2.0",
-  "description": "Portable, safety-gated coding-agent workflows for Codex and Claude Code.",
+  "name": "optional-aging-agent-toolkit",
+  "version": "0.3.0",
+  "description": "Optional Aging's safety-gated coding-agent workflows, including health-data and clinical-scope guardrails.",
   "author": {
-    "name": "Zulfqar of Coding contributors",
-    "url": "https://github.com/Mohamed-Alaboudi/zulfqar-of-coding"
+    "name": "Optional Aging",
+    "url": "https://github.com/OptionalAging"
   },
-  "repository": "https://github.com/Mohamed-Alaboudi/zulfqar-of-coding",
+  "repository": "https://github.com/OptionalAging/Dr-Z-Zulfiqar-of-coding",
   "license": "MIT",
-  "keywords": ["coding-agents", "codex", "claude-code", "skills"],
+  "keywords": ["coding-agents", "codex", "claude-code", "skills", "health-data", "privacy"],
   "skills": "./skills/"
 }
