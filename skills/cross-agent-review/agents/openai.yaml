@@ -1,0 +1,3 @@
+interface:
+  display_name: "Cross-Agent Review"
+  short_description: "Independent adversarial review before merge"

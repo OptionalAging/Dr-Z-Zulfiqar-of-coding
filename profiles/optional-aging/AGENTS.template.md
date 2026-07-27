@@ -79,10 +79,21 @@ Fill these in after the application is scaffolded:
 
 A change is complete only when fresh evidence supports the claim. Run the focused checks and the broadest affordable integration check. For health-data work, include negative authorization tests, prohibited-data log review, and audit-event verification.
 
+## Cross-agent review
+
+Invoke `cross-agent-review` before approving or merging consequential changes involving authentication, authorization, PHI or health data, clinical workflows, database migrations, production infrastructure, destructive operations, public contracts, payments, security controls, or expensive architecture decisions.
+
+- The implementation author and reviewer must use different agent contexts.
+- The first review pass is read-only and inspects the actual diff and affected paths.
+- Findings require severity, evidence, and a concrete correction.
+- The implementation agent remediates confirmed findings; the independent reviewer re-verifies them.
+- PASS requires fresh verification against the reviewed commit SHA.
+- Human approval is required when BLOCKER or HIGH findings remain or a regulated boundary is unresolved.
+
 ## Git and pull requests
 
 - Branch prefixes: `feat/`, `fix/`, `docs/`, or `chore/` plus a short slug.
-- Do not work directly on the default branch.
+- Do not work directly on the default branch after repository bootstrap.
 - Keep commits focused and explain why.
 - Run secret scanning before every push.
 - Open draft pull requests until validation and review are complete.

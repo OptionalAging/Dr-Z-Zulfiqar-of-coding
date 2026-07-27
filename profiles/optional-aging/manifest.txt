@@ -1,5 +1,6 @@
 # Skills deployed by the Optional Aging project profile.
 health-data-safety
+cross-agent-review
 verification-before-completion
 systematic-debugging
 common-ground

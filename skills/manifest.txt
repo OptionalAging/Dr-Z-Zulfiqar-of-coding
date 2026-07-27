@@ -2,6 +2,7 @@
 bookend
 brainstorming
 common-ground
+cross-agent-review
 delegating-work
 doubt-driven-development
 exa
